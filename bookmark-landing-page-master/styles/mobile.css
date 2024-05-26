@@ -1,0 +1,502 @@
+@media (width < 900px) {
+  header {
+    min-width: 365px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  header .logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  header .logo svg {
+    margin-left: 1em;
+    position: absolute;
+    z-index: 100;
+  }
+  header .open-menu {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+  }
+  header .open-menu i {
+    font-size: 1.425rem;
+    color: hsl(231, 31%, 20%);
+  }
+  header nav {
+    display: none;
+  }
+  header .show-navbar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 10;
+    background-color: hsla(231, 84%, 31%, 0.859);
+  }
+  header ul {
+    list-style: none;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  header ul li {
+    width: 80%;
+    padding: 10px 10px;
+    border-bottom: 1px solid hsla(229, 8%, 60%, 0.528);
+  }
+  header ul li a {
+    font-size: 1.625rem;
+    font-weight: 100;
+    color: hsl(0, 0%, 100%);
+    font-family: "Rubik", sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+  }
+  header ul button {
+    margin-block-start: 2em;
+    width: 80%;
+    height: 10%;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 0.5em;
+    background-color: transparent;
+  }
+  header ul button a {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.325rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  header .close-menu {
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+  }
+  header .close-menu .fa-solid {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.425rem;
+    font-weight: 500;
+  }
+  header .social-icons {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2em;
+  }
+  header .social-icons .fa-brands {
+    font-size: 1.625rem;
+    color: hsl(0, 0%, 100%);
+  }
+  main {
+    min-width: 365px;
+    width: 100%;
+    min-height: 100vh;
+  }
+  main .section-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  main .section-1 .left-section {
+    width: 100%;
+    height: 50%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-1 .left-section h1 {
+    margin-block: 1em 1em;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 2.125rem;
+    font-weight: 500;
+  }
+  main .section-1 .left-section p {
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(229, 8%, 60%);
+    font-size: 1.025rem;
+    font-family: "Rubik", sans-serif;
+    line-height: 25px;
+    margin-inline: 2.5em 2.5em;
+  }
+  main .section-1 .left-section .sct-1-button {
+    margin-block: 1em 1em;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  main .section-1 .left-section .sct-1-button button {
+    width: 40%;
+    height: 50%;
+    border-radius: 0.5em;
+  }
+  main .section-1 .left-section .sct-1-button button a {
+    font-size: 0.925rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(1) {
+    background-color: hsl(231, 69%, 60%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(1) a {
+    color: hsl(0, 0%, 100%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(2) {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 -2px 5px 1px hsl(0, 0%, 96%), 0 2px 7px 1px hsl(0, 2%, 83%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(2) a {
+    color: hsl(229, 8%, 60%);
+  }
+  main .section-1 .right-section {
+    order: 1;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  main .section-1 .right-section img {
+    width: 90%;
+    display: block;
+  }
+  main .section-1 .right-section::before {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    background-color: hsl(231, 69%, 60%);
+    z-index: -1;
+  }
+  main .section-2 {
+    width: 100%;
+    height: auto;
+  }
+  main .section-2 .top-section {
+    width: 100%;
+    height: auto;
+  }
+  main .section-2 .top-section h2 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    margin-block: 1em 1em;
+  }
+  main .section-2 .top-section p {
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(229, 8%, 60%);
+    font-size: 1.025rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-inline: 2.5em 2.5em;
+    text-wrap: wrap;
+  }
+  main .section-2 .slide-button {
+    margin-block: 2em 2em;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-2 .slide-button .info-button {
+    width: 80%;
+    height: 50%;
+    background-color: transparent;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    color: hsl(229, 31%, 21%);
+    position: relative;
+  }
+  main .section-2 .slide-button .info-button::before {
+    content: "";
+    width: 50%;
+    height: 3px;
+    border-radius: 2em;
+    background-color: hsl(0, 94%, 66%);
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    opacity: 0;
+  }
+  main .section-2 .slide-button .info-button:active::before {
+    opacity: 1;
+  }
+  main .section-2 .slide-button .info-button-1 {
+    border-top: 1px solid hsl(229, 8%, 60%);
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+  }
+  main .section-2 .slide-button .info-button-3 {
+    border-top: 1px solid hsl(229, 8%, 60%);
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+  }
+  main .section-2 .slide-wrapper {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+  }
+  main .section-2 .slide-wrapper .slide-box {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide {
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .left {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .left img {
+    width: 80%;
+    height: 70%;
+    display: block;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .left::before {
+    content: "";
+    width: 70%;
+    height: 70%;
+    background-color: hsl(231, 69%, 60%);
+    position: absolute;
+    top: 30%;
+    right: 0;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    z-index: -1;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right {
+    margin-block-start: 1em;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right .right-title {
+    margin-block-end: 1em;
+    font-size: 1.625rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right .right-text {
+    margin-inline: 2.5em 2.5em;
+    font-family: "Rubik", sans-serif;
+    font-size: 0.925rem;
+    color: hsl(229, 8%, 60%);
+    text-wrap: wrap;
+    text-align: center;
+    line-height: 25px;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right button {
+    margin-block: 1em 1em;
+    width: 100px;
+    height: 40px;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    border-radius: 0.5em;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right button a {
+    color: hsl(0, 0%, 100%);
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide-2 .left::before {
+    left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide-3 .left::before {
+    left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+  }
+  main .section-3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-3 .section-3-top-content {
+    width: 100%;
+    height: 130px;
+  }
+  main .section-3 .section-3-top-content h3 {
+    font-size: 1.425rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-block: 1em 1em;
+  }
+  main .section-3 .section-3-top-content p {
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(229, 8%, 60%);
+    font-size: 1.025rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 0.925rem;
+    margin-inline: 3em 3em;
+    margin-block-end: 2em;
+  }
+  main .section-3 .section-3-card {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 20px 35px 1px rgba(217, 213, 213, 0.505);
+    margin-top: 1.5em;
+    border-radius: 1em;
+  }
+  main .section-3 .section-3-card .card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: spa;
+    align-items: center;
+    gap: 1em;
+    position: absolute;
+    top: 10%;
+  }
+  main .section-3 .section-3-card .card-content img {
+    margin-bottom: 0.5em;
+  }
+  main .section-3 .section-3-card .card-content p:nth-child(2) {
+    font-size: 1.125rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+  main .section-3 .section-3-card .card-content p:nth-child(3) {
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(229, 8%, 60%);
+    font-size: 1.025rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 0.925rem;
+  }
+  main .section-3 .section-3-card .card-button {
+    width: 100%;
+    height: 100px;
+    border-top: 4px dotted rgb(226, 223, 223);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section-3 .section-3-card .card-button button {
+    width: 85%;
+    height: 50%;
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 0.5em;
+  }
+  main .section-3 .section-3-card .card-button button a {
+    color: hsl(0, 0%, 100%);
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-4-top-content p {
+    width: 90%;
+  }
+  footer {
+    min-width: 365px;
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: hsl(231, 31%, 20%);
+  }
+  footer .footer-logo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-logo svg {
+    display: block;
+  }
+  footer .footer-logo svg path {
+    fill: white;
+  }
+  footer ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    list-style: none;
+  }
+  footer ul li a {
+    text-transform: uppercase;
+    font-size: 0.925rem;
+    font-weight: 100;
+    color: hsl(0, 0%, 100%);
+  }
+  footer .social-icons {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  footer .social-icons i {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.625rem;
+  }
+}/*# sourceMappingURL=mobile.css.map */

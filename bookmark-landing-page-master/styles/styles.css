@@ -1,0 +1,1233 @@
+@media (width > 900px) {
+  header {
+    max-width: 1440px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  header .open-menu {
+    display: none;
+  }
+  header .logo {
+    width: 30%;
+  }
+  header .logo svg {
+    margin-left: 3em;
+  }
+  header nav {
+    width: 70%;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 3em;
+  }
+  header nav ul li {
+    margin-right: 3em;
+  }
+  header nav ul li a {
+    color: hsl(229, 31%, 21%);
+    transition: 300ms ease-in-out;
+  }
+  header nav ul li a:hover {
+    color: hsl(0, 94%, 66%);
+    transition: 300ms ease-in-out;
+  }
+  header nav ul button {
+    width: 110px;
+    height: 35px;
+    background-color: hsl(0, 94%, 66%);
+    transition: 300ms ease-in-out;
+    border-radius: 0.5em;
+  }
+  header nav ul button a {
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+  }
+  header nav ul button:hover {
+    transition: 300ms ease-in-out;
+    background-color: transparent;
+    border: 2px solid hsl(0, 94%, 66%);
+  }
+  header nav ul button:hover a {
+    color: hsl(0, 94%, 66%);
+    transition: 300ms ease-in-out;
+  }
+  header nav .close-menu {
+    display: none;
+  }
+  header nav .social-icons {
+    display: none;
+  }
+  main {
+    max-width: 1440px;
+    margin-block-start: 5em;
+    width: 100%;
+    height: auto;
+  }
+  main .section-1 {
+    width: 100%;
+    display: flex;
+  }
+  main .section-1 .left-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .section-1 .left-section h1 {
+    font-size: 2.125rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    margin-inline: 2em 2em;
+  }
+  main .section-1 .left-section p {
+    margin-block-start: 1em;
+    font-size: 0.925rem;
+    color: hsl(229, 8%, 60%);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-inline: 5em 3em;
+  }
+  main .section-1 .left-section .sct-1-button {
+    margin-block: 1em 1em;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  main .section-1 .left-section .sct-1-button button {
+    width: 30%;
+    height: 40%;
+    border-radius: 0.5em;
+    transition: 500ms ease-in-out;
+  }
+  main .section-1 .left-section .sct-1-button button a {
+    font-size: 0.725rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(1) {
+    background-color: hsl(231, 69%, 60%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(1) a {
+    color: hsl(0, 0%, 100%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(2) {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 -2px 5px 1px hsl(0, 0%, 96%), 0 2px 7px 1px hsl(0, 2%, 83%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(2) a {
+    color: hsl(229, 8%, 60%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(1):hover {
+    color: hsl(231, 69%, 60%);
+    background-color: transparent;
+    transition: 300ms ease-in-out;
+    border: 2px solid hsl(231, 69%, 60%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(1):hover a {
+    color: hsl(231, 69%, 60%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(2):hover {
+    background-color: transparent;
+    color: hsl(229, 31%, 21%);
+    transition: 500ms ease-in-out;
+    border: 2px solid hsl(229, 31%, 21%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(2):hover a {
+    color: hsl(229, 31%, 21%);
+    transition: 500ms ease-in-out;
+  }
+  main .section-1 .right-section {
+    width: 50%;
+    height: 100%;
+    position: relative;
+  }
+  main .section-1 .right-section img {
+    width: 90%;
+    display: block;
+  }
+  main .section-1 .right-section::before {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    background-color: hsl(231, 69%, 60%);
+    z-index: -1;
+  }
+  main .section-2 {
+    width: 100%;
+  }
+  main .section-2 .top-section {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-2 .top-section h2 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.625rem;
+    font-weight: 500;
+    margin-block: 1em 1em;
+  }
+  main .section-2 .top-section p {
+    width: 40%;
+    text-align: center;
+    margin-block-start: 1em;
+    font-size: 0.925rem;
+    color: hsl(229, 8%, 60%);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-inline: 5em 3em;
+  }
+  main .section-2 .slide-button {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section-2 .slide-button .info-button {
+    width: 25%;
+    height: 60%;
+    background-color: transparent;
+    font-size: 0.925rem;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    color: hsl(229, 31%, 21%);
+    position: relative;
+    border-bottom: 1px solid hsla(229, 8%, 60%, 0.528);
+  }
+  main .section-2 .slide-button .info-button:focus {
+    border-bottom: 2px solid hsl(0, 94%, 66%);
+    transition: 100ms all;
+    color: hsl(0, 94%, 66%);
+  }
+  main .section-2 .slide-button .info-button:hover {
+    color: hsl(0, 94%, 66%);
+  }
+  main .section-2 .slide-wrapper {
+    width: 100%;
+    height: 500px;
+  }
+  main .section-2 .slide-wrapper .slide-box {
+    width: 100%;
+    height: 100%;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .left img {
+    width: 80%;
+    display: block;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .left::before {
+    content: "";
+    width: 100%;
+    height: 60%;
+    background-color: hsl(231, 69%, 60%);
+    position: absolute;
+    top: 35%;
+    left: -20%;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+    z-index: -1;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2em;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right .right-title {
+    font-size: 1.625rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right .right-text {
+    width: 60%;
+    margin-block-start: 1em;
+    font-size: 0.925rem;
+    color: hsl(229, 8%, 60%);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-inline: 5em 3em;
+    margin-inline: 0 0;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right button {
+    margin-block: 1em 1em;
+    width: 100px;
+    height: 40px;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    border-radius: 0.5em;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right button a {
+    color: hsl(0, 0%, 100%);
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right button:hover {
+    border: 2px solid hsl(231, 69%, 60%);
+    background-color: transparent;
+    transition: 500ms ease-in-out;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right button:hover a {
+    color: hsl(231, 69%, 60%);
+    transition: 300ms ease-in-out;
+  }
+  main .section-3 {
+    margin-block-start: 4em;
+    width: 100%;
+  }
+  main .section-3 .section-3-top-content {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-3 .section-3-top-content h3 {
+    font-size: 1.425rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-block: 1em 1em;
+  }
+  main .section-3 .section-3-top-content p {
+    width: 40%;
+    margin-block-start: 1em;
+    font-size: 0.925rem;
+    color: hsl(229, 8%, 60%);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-inline: 5em 3em;
+    text-align: center;
+  }
+  main .section-3 .section-3-card-wrapper {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    position: relative;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 20px 35px 1px rgba(217, 213, 213, 0.505);
+    margin-top: 1.5em;
+    border-radius: 1em;
+    transition: 300ms all;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card .card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    position: absolute;
+    top: 10%;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card .card-content img {
+    margin-bottom: 0.5em;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card .card-content p:nth-child(2) {
+    font-size: 1.125rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card .card-content p:nth-child(3) {
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(229, 8%, 60%);
+    font-size: 1.025rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 0.925rem;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card .card-button {
+    width: 100%;
+    height: 100px;
+    border-top: 4px dotted rgb(226, 223, 223);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card .card-button button {
+    width: 85%;
+    height: 50%;
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 0.5em;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card .card-button button a {
+    color: hsl(0, 0%, 100%);
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card .card-button button:hover {
+    border: 2px solid hsl(231, 69%, 60%);
+    background-color: transparent;
+    transition: 500ms ease-in-out;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card .card-button button:hover a {
+    color: hsl(231, 69%, 60%);
+    transition: 300ms ease-in-out;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card:hover {
+    transform: scale(1.05);
+    transition: 300ms all;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card:nth-child(2) {
+    margin-top: 4em;
+  }
+  main .section-3 .section-3-card-wrapper .section-3-card:nth-child(3) {
+    margin-top: 7em;
+  }
+  main .section-4 {
+    width: 40%;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section-4 .section-4-top-content p {
+    width: 38%;
+  }
+  main .section-4 .tab-wrapper {
+    width: 300px;
+    height: auto;
+  }
+  footer {
+    max-width: 1440px;
+    width: 100%;
+    height: 100px;
+    background-color: hsl(231, 31%, 20%);
+    display: flex;
+    align-items: center;
+  }
+  footer .footer-logo svg {
+    margin-left: 2em;
+  }
+  footer .footer-logo svg path {
+    fill: hsl(0, 0%, 100%);
+  }
+  footer ul {
+    margin-left: 4em;
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    position: relative;
+  }
+  footer ul li a {
+    color: hsl(0, 0%, 100%);
+  }
+  footer ul li a:hover {
+    color: hsl(0, 94%, 66%);
+  }
+  footer .social-icons {
+    position: absolute;
+    right: 10%;
+  }
+  footer .social-icons a {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.625rem;
+    margin-right: 1em;
+  }
+  footer .social-icons a:hover {
+    color: hsl(0, 94%, 66%);
+  }
+}
+@media (width < 900px) {
+  header {
+    min-width: 365px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  header .logo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  header .logo svg {
+    margin-left: 1em;
+    position: absolute;
+    z-index: 100;
+  }
+  header .open-menu {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+  }
+  header .open-menu i {
+    font-size: 1.425rem;
+    color: hsl(231, 31%, 20%);
+  }
+  header nav {
+    display: none;
+  }
+  header .show-navbar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 10;
+    background-color: hsla(231, 84%, 31%, 0.859);
+  }
+  header ul {
+    list-style: none;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  header ul li {
+    width: 80%;
+    padding: 10px 10px;
+    border-bottom: 1px solid hsla(229, 8%, 60%, 0.528);
+  }
+  header ul li a {
+    font-size: 1.625rem;
+    font-weight: 100;
+    color: hsl(0, 0%, 100%);
+    font-family: "Rubik", sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+  }
+  header ul button {
+    margin-block-start: 2em;
+    width: 80%;
+    height: 10%;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 0.5em;
+    background-color: transparent;
+  }
+  header ul button a {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.325rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  header .close-menu {
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+  }
+  header .close-menu .fa-solid {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.425rem;
+    font-weight: 500;
+  }
+  header .social-icons {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2em;
+  }
+  header .social-icons .fa-brands {
+    font-size: 1.625rem;
+    color: hsl(0, 0%, 100%);
+  }
+  main {
+    min-width: 365px;
+    width: 100%;
+    min-height: 100vh;
+  }
+  main .section-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  main .section-1 .left-section {
+    width: 100%;
+    height: 50%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-1 .left-section h1 {
+    margin-block: 1em 1em;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 2.125rem;
+    font-weight: 500;
+  }
+  main .section-1 .left-section p {
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(229, 8%, 60%);
+    font-size: 1.025rem;
+    font-family: "Rubik", sans-serif;
+    line-height: 25px;
+    margin-inline: 2.5em 2.5em;
+  }
+  main .section-1 .left-section .sct-1-button {
+    margin-block: 1em 1em;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  main .section-1 .left-section .sct-1-button button {
+    width: 40%;
+    height: 50%;
+    border-radius: 0.5em;
+  }
+  main .section-1 .left-section .sct-1-button button a {
+    font-size: 0.925rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(1) {
+    background-color: hsl(231, 69%, 60%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(1) a {
+    color: hsl(0, 0%, 100%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(2) {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 -2px 5px 1px hsl(0, 0%, 96%), 0 2px 7px 1px hsl(0, 2%, 83%);
+  }
+  main .section-1 .left-section .sct-1-button button:nth-child(2) a {
+    color: hsl(229, 8%, 60%);
+  }
+  main .section-1 .right-section {
+    order: 1;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  main .section-1 .right-section img {
+    width: 90%;
+    display: block;
+  }
+  main .section-1 .right-section::before {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    background-color: hsl(231, 69%, 60%);
+    z-index: -1;
+  }
+  main .section-2 {
+    width: 100%;
+    height: auto;
+  }
+  main .section-2 .top-section {
+    width: 100%;
+    height: auto;
+  }
+  main .section-2 .top-section h2 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    margin-block: 1em 1em;
+  }
+  main .section-2 .top-section p {
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(229, 8%, 60%);
+    font-size: 1.025rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-inline: 2.5em 2.5em;
+    text-wrap: wrap;
+  }
+  main .section-2 .slide-button {
+    margin-block: 2em 2em;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-2 .slide-button .info-button {
+    width: 80%;
+    height: 50%;
+    background-color: transparent;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    color: hsl(229, 31%, 21%);
+    position: relative;
+  }
+  main .section-2 .slide-button .info-button::before {
+    content: "";
+    width: 50%;
+    height: 3px;
+    border-radius: 2em;
+    background-color: hsl(0, 94%, 66%);
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    opacity: 0;
+  }
+  main .section-2 .slide-button .info-button:active::before {
+    opacity: 1;
+  }
+  main .section-2 .slide-button .info-button-1 {
+    border-top: 1px solid hsl(229, 8%, 60%);
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+  }
+  main .section-2 .slide-button .info-button-3 {
+    border-top: 1px solid hsl(229, 8%, 60%);
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+  }
+  main .section-2 .slide-wrapper {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+  }
+  main .section-2 .slide-wrapper .slide-box {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide {
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .left {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .left img {
+    width: 80%;
+    height: 70%;
+    display: block;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .left::before {
+    content: "";
+    width: 70%;
+    height: 70%;
+    background-color: hsl(231, 69%, 60%);
+    position: absolute;
+    top: 30%;
+    right: 0;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    z-index: -1;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right {
+    margin-block-start: 1em;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right .right-title {
+    margin-block-end: 1em;
+    font-size: 1.625rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right .right-text {
+    margin-inline: 2.5em 2.5em;
+    font-family: "Rubik", sans-serif;
+    font-size: 0.925rem;
+    color: hsl(229, 8%, 60%);
+    text-wrap: wrap;
+    text-align: center;
+    line-height: 25px;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right button {
+    margin-block: 1em 1em;
+    width: 100px;
+    height: 40px;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    border-radius: 0.5em;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide .right button a {
+    color: hsl(0, 0%, 100%);
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide-2 .left::before {
+    left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+  }
+  main .section-2 .slide-wrapper .slide-box .slide-3 .left::before {
+    left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+  }
+  main .section-3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .section-3 .section-3-top-content {
+    width: 100%;
+    height: 130px;
+  }
+  main .section-3 .section-3-top-content h3 {
+    font-size: 1.425rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-block: 1em 1em;
+  }
+  main .section-3 .section-3-top-content p {
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(229, 8%, 60%);
+    font-size: 1.025rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 0.925rem;
+    margin-inline: 3em 3em;
+    margin-block-end: 2em;
+  }
+  main .section-3 .section-3-card {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 20px 35px 1px rgba(217, 213, 213, 0.505);
+    margin-top: 1.5em;
+    border-radius: 1em;
+  }
+  main .section-3 .section-3-card .card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: spa;
+    align-items: center;
+    gap: 1em;
+    position: absolute;
+    top: 10%;
+  }
+  main .section-3 .section-3-card .card-content img {
+    margin-bottom: 0.5em;
+  }
+  main .section-3 .section-3-card .card-content p:nth-child(2) {
+    font-size: 1.125rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+  main .section-3 .section-3-card .card-content p:nth-child(3) {
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(229, 8%, 60%);
+    font-size: 1.025rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 0.925rem;
+  }
+  main .section-3 .section-3-card .card-button {
+    width: 100%;
+    height: 100px;
+    border-top: 4px dotted rgb(226, 223, 223);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section-3 .section-3-card .card-button button {
+    width: 85%;
+    height: 50%;
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 0.5em;
+  }
+  main .section-3 .section-3-card .card-button button a {
+    color: hsl(0, 0%, 100%);
+    font-family: "Rubik", sans-serif;
+  }
+  main .section-4-top-content p {
+    width: 90%;
+  }
+  footer {
+    min-width: 365px;
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: hsl(231, 31%, 20%);
+  }
+  footer .footer-logo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-logo svg {
+    display: block;
+  }
+  footer .footer-logo svg path {
+    fill: white;
+  }
+  footer ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    list-style: none;
+  }
+  footer ul li a {
+    text-transform: uppercase;
+    font-size: 0.925rem;
+    font-weight: 100;
+    color: hsl(0, 0%, 100%);
+  }
+  footer .social-icons {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  footer .social-icons i {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.625rem;
+  }
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button,
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+css-doodle {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.top-btn {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(0, 94%, 66%);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  border-radius: 0.5em;
+  display: none;
+}
+.top-btn i {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.625rem;
+}
+
+main {
+  width: 100%;
+}
+main .section-4 {
+  margin-block-start: 5em;
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section-4 .section-4-top-content {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .section-4 .section-4-top-content h4 {
+  font-size: 1.425rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-inline: 2em 2em;
+}
+main .section-4 .section-4-top-content p {
+  text-align: center;
+  text-wrap: wrap;
+  color: hsl(229, 8%, 60%);
+  font-size: 1.025rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 0.925rem;
+  margin-block-start: 2em;
+  margin-inline: 3em 3em;
+}
+main .section-4 .tab-wrapper {
+  margin-block-start: 5em;
+  width: 60%;
+  height: auto;
+}
+main .section-4 .tab-wrapper .tab {
+  width: 100%;
+  height: 60px;
+  overflow-y: hidden;
+}
+main .section-4 .tab-wrapper .tab .tab-title {
+  height: 40px;
+  text-align: left;
+  margin-block: 1em 1em;
+  font-family: "Rubik", sans-serif;
+  border-bottom: 1px solid hsl(229, 8%, 60%);
+  position: relative;
+  cursor: pointer;
+}
+main .section-4 .tab-wrapper .tab .tab-title span {
+  position: absolute;
+  right: 0;
+  color: hsl(231, 69%, 60%);
+  font-weight: 500;
+}
+main .section-4 .tab-wrapper .tab .tab-content {
+  text-wrap: wrap;
+  font-size: 0.925rem;
+  color: hsl(229, 8%, 60%);
+  line-height: 25px;
+}
+main .section-4 .tab-wrapper .tab:nth-child(2) {
+  height: auto;
+}
+main .section-4 .tab-wrapper .tab-button {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 2em;
+}
+main .section-4 .tab-wrapper .tab-button button {
+  width: 100px;
+  height: 40px;
+  background-color: hsl(231, 69%, 60%);
+  border: none;
+  border-radius: 0.5em;
+}
+main .section-4 .tab-wrapper .tab-button button a {
+  color: hsl(0, 0%, 100%);
+  font-family: "Rubik", sans-serif;
+}
+main .section-5 {
+  margin-block-start: 2em;
+  width: 100%;
+  height: auto;
+  background-color: hsl(231, 69%, 60%);
+  display: flex;
+  justify-content: space-evenly;
+}
+main .section-5 .section-5-top-content {
+  width: 100%;
+  height: 50%;
+  margin-block: 5em 3em;
+}
+main .section-5 .section-5-top-content p {
+  color: hsl(0, 0%, 100%);
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.725rem;
+  font-weight: 400;
+}
+main .section-5 .section-5-top-content h5 {
+  font-weight: 500;
+  font-size: 1.625rem;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin-block: 0.5em 0.5em;
+  margin-inline: 2em 2em;
+}
+main .section-5 .section-5-top-content form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section-5 .section-5-top-content form .input {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main .section-5 .section-5-top-content form .input input[type=email] {
+  width: 300px;
+  height: 40px;
+  z-index: 3;
+  text-indent: 1em;
+  font-size: 0.925rem;
+  border: none;
+}
+main .section-5 .section-5-top-content form .input input[type=email]::-moz-placeholder {
+  font-size: 1.125rem;
+  font-family: "Rubik", sans-serif;
+  text-indent: 1em;
+  font-size: 0.925rem;
+}
+main .section-5 .section-5-top-content form .input input[type=email]::placeholder {
+  font-size: 1.125rem;
+  font-family: "Rubik", sans-serif;
+  text-indent: 1em;
+  font-size: 0.925rem;
+}
+main .section-5 .section-5-top-content form .input .fa-solid {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 3;
+  font-size: 1.325rem;
+  color: hsl(0, 94%, 66%);
+  display: none;
+  font-size: rem;
+}
+main .section-5 .section-5-top-content form .input .input-error {
+  width: 300px;
+  font-size: 0.825rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 94%, 66%);
+  padding: 8px 8px;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  display: none;
+}
+main .section-5 .section-5-top-content form input[type=submit] {
+  width: 300px;
+  height: 40px;
+  background-color: hsl(0, 94%, 66%);
+  color: hsl(0, 0%, 100%);
+  margin-block-start: 1em;
+  border-radius: 0.5em;
+  transition: 300ms linear;
+  cursor: pointer;
+  outline: 2px solid transparent;
+}
+main .section-5 .section-5-top-content form input[type=submit]:hover {
+  outline: 1px solid hsl(0, 0%, 100%);
+  outline-offset: 5px;
+  transition: 300ms linear;
+}/*# sourceMappingURL=styles.css.map */
